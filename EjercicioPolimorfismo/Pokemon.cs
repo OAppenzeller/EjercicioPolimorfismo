@@ -2,14 +2,14 @@
 {
     class Pokemon
     {
-        public virtual void Ataque()
+        public virtual void Attack()
         {
-            Console.WriteLine("El pokemon usa un ataque");
+            Console.WriteLine("The Pokemon uses an attack");
         }
 
-        public virtual void Defensa()
+        public virtual void Defense()
         {
-            Console.WriteLine("El pokemon usa una defensa");
+            Console.WriteLine("The Pokemon defends itself");
         }
     }
 }
